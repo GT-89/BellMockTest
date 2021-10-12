@@ -9,5 +9,9 @@
     <string name="menu_showtime">Showtime</string>
     <string name="nav_drawer_open">Open</string>
     <string name="nav_drawer_close">Close</string>
+    <string name="title_kids_posters">Kids Movie Posters</string>
+    <string name="title_movie_placeholder">Movie Title</string>
+    <string name="title_summary_placeholder">Summary</string>
+    <string name="movie_title_example">Black Hawk Down</string>
 
 </resources>

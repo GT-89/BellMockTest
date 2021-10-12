@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home_frag"
-        android:name="com.example.belltakehome.fragments.FragmentHome"
+        android:name="com.example.belltakehome.ui.fragments.FragmentHome"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
@@ -21,19 +21,19 @@
 
     <fragment
         android:id="@+id/tv_shows_frag"
-        android:name="com.example.belltakehome.fragments.FragmentTVShows"
+        android:name="com.example.belltakehome.ui.fragments.FragmentTVShows"
         android:label="@string/menu_tv_shows"
         tools:layout="@layout/fragment_tv_shows"/>
 
     <fragment
         android:id="@+id/kids_frag"
-        android:name="com.example.belltakehome.fragments.FragmentKids"
+        android:name="com.example.belltakehome.ui.fragments.FragmentKids"
         android:label="@string/menu_kids"
         tools:layout="@layout/fragment_kids"/>
 
     <fragment
         android:id="@+id/showtime_frag"
-        android:name="com.example.belltakehome.fragments.FragmentShowTime"
+        android:name="com.example.belltakehome.ui.fragments.FragmentShowTime"
         android:label="@string/menu_showtime"
         tools:layout="@layout/fragment_showtime"/>
 

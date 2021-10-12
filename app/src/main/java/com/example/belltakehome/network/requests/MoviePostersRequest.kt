@@ -10,6 +10,10 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+/**
+ * Class responsible for handling the movie posters API network call
+ * using coroutines to transfer work load to IO thread
+ */
 class MoviePostersRequest {
 
     private val TAG = MoviePostersRequest::class.java.simpleName

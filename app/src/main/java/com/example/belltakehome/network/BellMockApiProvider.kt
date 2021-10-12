@@ -1,13 +1,19 @@
-package com.example.belltakehome
+package com.example.belltakehome.network
 
 import com.example.belltakehome.models.Movie
-import com.example.belltakehome.models.MoviePostersResponse
 import com.example.belltakehome.models.ScreenDetailsResponse
 import com.example.belltakehome.models.ScreenResponse
 import com.example.belltakehome.network.requests.MoviePostersRequest
 import com.example.belltakehome.network.requests.ScreenDetailsRequest
 import com.example.belltakehome.network.requests.ScreenRequest
+import toothpick.InjectConstructor
 
+
+/**
+ * Provider class responsible for retrieving all BellMock API
+ * related data
+ */
+@InjectConstructor
 class BellMockApiProvider {
 
     suspend fun getListOfScreens(): List<ScreenResponse>? {

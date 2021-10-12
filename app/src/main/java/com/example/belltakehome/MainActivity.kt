@@ -12,7 +12,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.*
 import com.example.belltakehome.databinding.ActivityMainBinding
-import com.example.belltakehome.fragments.FragmentHome
+import com.example.belltakehome.ui.fragments.FragmentHome
 import com.example.belltakehome.toothpick.ActivityModule
 import com.example.belltakehome.toothpick.ActivityScope
 import com.example.belltakehome.toothpick.ApplicationScope

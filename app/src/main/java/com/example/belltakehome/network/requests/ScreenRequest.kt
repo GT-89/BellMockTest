@@ -8,6 +8,10 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+/**
+ * Class responsible for handling the screen list API network call
+ * using coroutines to transfer work load to IO thread
+ */
 class ScreenRequest {
 
     private val TAG = ScreenRequest::class.java.simpleName

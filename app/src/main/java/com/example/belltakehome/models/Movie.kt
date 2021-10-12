@@ -7,6 +7,7 @@ data class Movie (
     var description: String? = null,
     var imageUrl: String? = null) {
 
+    // constructor to handle refining data from API call request responses
     constructor(data: MoviePostersResponse): this() {
         id = data.id
         title = data.title

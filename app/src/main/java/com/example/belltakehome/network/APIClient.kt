@@ -6,6 +6,10 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ * Class responsible for handling the creation and handling of
+ * the retrofit client object
+ */
 object APIClient {
 
     private val gson: Gson by lazy {
