@@ -1,4 +1,6 @@
 package com.example.belltakehome.fragments
 
-class FragmentShowTime {
+import androidx.fragment.app.Fragment
+
+class FragmentShowTime: Fragment() {
 }

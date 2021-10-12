@@ -6,19 +6,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/home_frag"
-            android:icon="@drawable/ic_baseline_home_grey_24"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/tv_shows_frag"
-            android:icon="@drawable/ic_baseline_phone_android_grey_24"
             android:title="@string/menu_tv_shows" />
         <item
             android:id="@+id/kids_frag"
-            android:icon="@drawable/ic_baseline_settings_grey_24"
             android:title="@string/menu_kids" />
         <item
             android:id="@+id/showtime_frag"
-            android:icon="@drawable/ic_baseline_settings_grey_24"
             android:title="@string/menu_showtime" />
     </group>
 </menu>

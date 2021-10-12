@@ -1,7 +1,7 @@
 package com.example.belltakehome.network.requests
 
 import android.util.Log
-import com.example.belltakehome.models.ScreenDetailsResponse
+import com.example.belltakehome.models.MoviePostersResponse
 import com.example.belltakehome.network.APIClient
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
@@ -10,24 +10,24 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class ScreenDetailsRequest {
+class MoviePostersRequest {
 
-    private val TAG = ScreenRequest::class.java.simpleName
+    private val TAG = MoviePostersRequest::class.java.simpleName
 
-    suspend fun getScreenDetails(alias: String): List<ScreenDetailsResponse>? {
-        val result = CompletableDeferred<List<ScreenDetailsResponse>?>()
+    suspend fun getMoviePosters(alias: String): List<MoviePostersResponse>? {
+        val result = CompletableDeferred<List<MoviePostersResponse>?>()
 
         withContext(Dispatchers.IO) {
             APIClient.bellMockAPIObject
-                .getScreenDetails(alias)
-                .enqueue(object: Callback<List<ScreenDetailsResponse>> {
-                    override fun onResponse(call: Call<List<ScreenDetailsResponse>>, response: Response<List<ScreenDetailsResponse>>) {
+                .getMoviePosters(alias)
+                .enqueue(object: Callback<List<MoviePostersResponse>> {
+                    override fun onResponse(call: Call<List<MoviePostersResponse>>, response: Response<List<MoviePostersResponse>>) {
                         response.body()?.let {
                             result.complete(it)
                         }
                     }
 
-                    override fun onFailure(call: Call<List<ScreenDetailsResponse>>, t: Throwable) {
+                    override fun onFailure(call: Call<List<MoviePostersResponse>>, t: Throwable) {
                         Log.e(TAG, t.message.toString())
                         result.complete(null)
                     }

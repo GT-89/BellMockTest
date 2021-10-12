@@ -1,4 +1,6 @@
 package com.example.belltakehome.fragments
 
-class FragmentTVShows {
+import androidx.fragment.app.Fragment
+
+class FragmentTVShows: Fragment() {
 }

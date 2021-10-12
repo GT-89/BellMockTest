@@ -7,23 +7,34 @@
 
     <fragment
         android:id="@+id/home_frag"
-        android:name="com.example.a1valetdevices.ui.fragments.FragmentHome"
-        android:label="@string/fragment_home_title"
+        android:name="com.example.belltakehome.fragments.FragmentHome"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
-        <action
+        <!--<action
             android:id="@+id/frag_home_to_details"
             app:destination="@+id/details_frag"
             app:popUpToInclusive="true"
-            app:popUpTo="@id/details_frag"/>
+            app:popUpTo="@id/details_frag"/>-->
 
     </fragment>
 
     <fragment
-        android:id="@+id/details_frag"
-        android:name="com.example.a1valetdevices.ui.fragments.FragmentDeviceDetails"
-        android:label="@string/fragment_details_title"
-        tools:layout="@layout/fragment_device_details"/>
+        android:id="@+id/tv_shows_frag"
+        android:name="com.example.belltakehome.fragments.FragmentTVShows"
+        android:label="@string/menu_tv_shows"
+        tools:layout="@layout/fragment_tv_shows"/>
 
+    <fragment
+        android:id="@+id/kids_frag"
+        android:name="com.example.belltakehome.fragments.FragmentKids"
+        android:label="@string/menu_kids"
+        tools:layout="@layout/fragment_kids"/>
+
+    <fragment
+        android:id="@+id/showtime_frag"
+        android:name="com.example.belltakehome.fragments.FragmentShowTime"
+        android:label="@string/menu_showtime"
+        tools:layout="@layout/fragment_showtime"/>
 
 </navigation>

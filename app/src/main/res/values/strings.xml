@@ -2,11 +2,12 @@
     <string name="app_name">BellTakeHome</string>
 
     //drawer menu
+    <string name="menu_title">Menu</string>
     <string name="menu_home">Home</string>
     <string name="menu_tv_shows">TV Shows</string>
     <string name="menu_kids">Kids</string>
     <string name="menu_showtime">Showtime</string>
-
-
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
 
 </resources>

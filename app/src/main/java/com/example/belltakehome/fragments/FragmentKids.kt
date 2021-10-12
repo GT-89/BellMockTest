@@ -1,4 +1,6 @@
 package com.example.belltakehome.fragments
 
-class FragmentKids {
+import androidx.fragment.app.Fragment
+
+class FragmentKids: Fragment() {
 }
